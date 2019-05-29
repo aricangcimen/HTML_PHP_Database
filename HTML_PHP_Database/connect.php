@@ -31,14 +31,15 @@
     <td>
     <select name:"Phonecode">
         <option selected hidden>Select Code </option>
-        <option> 978 </option>
-        <option> 979 </option>
-        <option> 980 </option>
-        <option> 977 </option>
-        <option> 977 </option>
-        <option> 977 </option>
-        <option> 977 </option>
-        <option> 977 </option>
+        <option value = "977"> 977</option>
+        <option value = "978"> 978</option>
+        <option value = "979"> 979</option>
+        <option value = "973"> 973</option>
+        <option value = "972"> 972</option>
+        <option value = "971"> 971</option>
+        <option value = "974"> 974</option>
+        <option value = "975"> 975</option>
+        <option value = "972"> 972</option>
     </select>
     <input type = "phone">      
 </td>
