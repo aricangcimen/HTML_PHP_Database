@@ -7,7 +7,7 @@
     <title>Register Form</title>
 </head>
 <body>
-<form>
+<form action = "insert,php" method = "POST">
 <table>
     <tr>
     <td> Name :     </td>
@@ -30,7 +30,7 @@
     <td> Phone No : </td>
     <td>
     <select name:"Phonecode">
-        <option selected hidden>Select Code </option>
+        <option selected hidden = "">Select Code </option>
         <option value = "977"> 977</option>
         <option value = "978"> 978</option>
         <option value = "979"> 979</option>
@@ -41,7 +41,7 @@
         <option value = "975"> 975</option>
         <option value = "972"> 972</option>
     </select>
-    <input type = "phone">      
+    <input type = "phone" name = "phone">      
 </td>
 </tr>
 <tr>
