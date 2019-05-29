@@ -19,20 +19,39 @@
     </tr>
     <tr>
     <td> Gender : </td>
-     <input type = "radio" name = "gender" > Male
-     <input type = "radio" name = "gender" > Female
+     <input type = "radio" name = "gender" value = m > Male
+     <input type = "radio" name = "gender"  value = f > Female
     </td>
     </tr>
     <td> email: </td>
-    <td> <input type: "email"></td>
+    <td> <input type: "email"> name: "email"></td>
     </tr>
     <tr>
     <td> Phone No : </td>
     <td>
-    <select>
-
-
-
+    <select name:"Phonecode">
+        <option selected hidden>Select Code </option>
+        <option> 978 </option>
+        <option> 979 </option>
+        <option> 980 </option>
+        <option> 977 </option>
+        <option> 977 </option>
+        <option> 977 </option>
+        <option> 977 </option>
+        <option> 977 </option>
+    </select>
+    <input type = "phone">      
+</td>
+</tr>
+<tr>
+    <td><input type = "phone"></td>
+</tr>
+<tr>
+    <td><input type= "submit" value = "submit"></td>
+</tr>
+<tr>
+    <td><input type= "submit" value = "submit"></td>
+</tr>
 
 
 </table>
