@@ -21,7 +21,7 @@ die('Connect Error ('. mysqli_connect_error())
     $SELECT = "SELECT  email From register Where  email = ? Limit 1";
     $INSERT = "INSERT Into register (username , password , gender , email , phonecode ,phone ) values(?,?,?,?,?)";
 }
-
+.
 }else {
 echo "All field are required";
 die();
