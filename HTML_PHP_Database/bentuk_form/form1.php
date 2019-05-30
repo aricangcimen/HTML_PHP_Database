@@ -8,7 +8,12 @@
 </head>
 <body>
     <main>
-    <p>    </p>
+    <p>SEND E-MAIL   </p>
+    <form class = "" action = "contactform.html" method = "post">
+    <input type = "text" name = "name" placeholder = "Full name">
+    <input type = "text" name = "mail" placeholder = "YourEmail">
+    <input type = "text" name = "subject" placeholder = "Subject">
+    <textarea name = "mame" rows = "cols= 80"></textarea>
     </main>
 </body>
 </html>
