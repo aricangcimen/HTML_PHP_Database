@@ -1,7 +1,7 @@
 <?php 
-
-echo $_POST['text'];
-
+if (isset($_POST['submit'])){
+echo "Hai saya {$_POST['text']}";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
