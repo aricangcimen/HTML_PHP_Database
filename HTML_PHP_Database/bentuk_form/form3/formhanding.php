@@ -1,3 +1,8 @@
+<?php 
+
+echo $_POST['text'];
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +12,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form method ="GET" action ="">
+    <form method ="POST" action ="">
     <input name = "text"  type = "text"/>
-    <input name = "text"  type = "password"/><
+    
     <input name = "submit"  type = "submit" value = "submit !!"/>
     
     
