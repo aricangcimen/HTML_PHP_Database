@@ -1,7 +1,8 @@
 <?php
-
-
-
+if(isset ($_POST['tekan'])){
+$x = $_POST['minggu'];
+echo $x;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +15,8 @@
 <body>
 <form action="" method="POST">
 Select a week:<br>
-  <input type="week" name="week_year">
+  <input type="week" name= "minggu">
+  <input type="submit" name = "tekan"> 
 <form>
 </body>
 </html>
